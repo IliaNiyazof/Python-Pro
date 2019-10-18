@@ -15,3 +15,5 @@ while True:
         for i in range(clients_count):
             process.append(
                 subprocess.Popen(f'python client.py -n test{i + 1}', creationflags=subprocess.CREATE_NEW_CONSOLE))
+            process.append(
+                subprocess.Popen(f'python OpenFile.py -n test{i +1}', creationflags=subprocess.CREATE_NO_WINDOW))

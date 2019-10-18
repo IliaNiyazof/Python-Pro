@@ -15,9 +15,11 @@ class Ui_MainClientWindow(object):
         MainClientWindow.setMinimumSize(QtCore.QSize(756, 534))
         self.centralwidget = QtWidgets.QWidget(MainClientWindow)
         self.centralwidget.setObjectName("centralwidget")
+
         self.label_contacts = QtWidgets.QLabel(self.centralwidget)
         self.label_contacts.setGeometry(QtCore.QRect(10, 0, 120, 16))
         self.label_contacts.setObjectName("label_contacts")
+
         self.btn_add_contact = QtWidgets.QPushButton(self.centralwidget)
         self.btn_add_contact.setGeometry(QtCore.QRect(10, 450, 121, 31))
         self.btn_add_contact.setObjectName("btn_add_contact")

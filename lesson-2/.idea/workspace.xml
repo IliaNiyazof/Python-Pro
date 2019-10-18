@@ -55,18 +55,19 @@
     <property name="restartRequiresConfirmation" value="false" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\IFHRJ\PycharmProjects\Python pro\Ниязов Илья lesson-2\lesson-2" />
+      <recent name="C:\Users\IFHRJ\PycharmProjects\База даных и PyQt\lesson-6\lesson-6\common" />
+      <recent name="C:\Users\IFHRJ\PycharmProjects\База даных и PyQt\lesson-5\lesson-5\common" />
+      <recent name="C:\Users\IFHRJ\PycharmProjects\Клиент-серверные python\Ниязов Илья\lesson-7\lesson-7" />
+      <recent name="C:\Users\IFHRJ\PycharmProjects\Клиент-серверные python\Ниязов Илья\lesson-3" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\IFHRJ\PycharmProjects\Python pro\lesson-1" />
       <recent name="C:\Users\IFHRJ\PycharmProjects\Python pro\lesson-1\log" />
       <recent name="C:\Users\IFHRJ\PycharmProjects\База даных и PyQt\lesson-6\lesson-6" />
       <recent name="C:\Users\IFHRJ\PycharmProjects\База даных и PyQt\lesson-5\lesson-5" />
       <recent name="C:\Users\IFHRJ\PycharmProjects\База даных и PyQt\lesson-4\lesson-4" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\IFHRJ\PycharmProjects\База даных и PyQt\lesson-6\lesson-6\common" />
-      <recent name="C:\Users\IFHRJ\PycharmProjects\База даных и PyQt\lesson-5\lesson-5\common" />
-      <recent name="C:\Users\IFHRJ\PycharmProjects\Клиент-серверные python\Ниязов Илья\lesson-7\lesson-7" />
-      <recent name="C:\Users\IFHRJ\PycharmProjects\Клиент-серверные python\Ниязов Илья\lesson-3" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -81,7 +82,29 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.image (1)">
+  <component name="RunManager" selected="Python.start">
+    <configuration name="OpenFile" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="lesson-3" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/OpenFile.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="client" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="lesson-3" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -148,28 +171,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="server" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="lesson-3" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/server.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="start" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="lesson-3" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -194,11 +195,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.start" />
+        <item itemvalue="Python.OpenFile" />
         <item itemvalue="Python.image (1)" />
         <item itemvalue="Python.image" />
-        <item itemvalue="Python.start" />
         <item itemvalue="Python.client" />
-        <item itemvalue="Python.server" />
       </list>
     </recent_temporary>
   </component>
@@ -275,6 +276,9 @@
       <workItem from="1569519538447" duration="3814000" />
       <workItem from="1569565630975" duration="2637000" />
       <workItem from="1569568793635" duration="397000" />
+      <workItem from="1570561781309" duration="1525000" />
+      <workItem from="1570563644585" duration="2418000" />
+      <workItem from="1570641460171" duration="701000" />
     </task>
     <servers />
   </component>
@@ -328,7 +332,7 @@
     <SUITE FILE_PATH="coverage/lesson_4$Unittests_for_test_client_TestClass_test_no_response.coverage" NAME="Unittests for test_client.TestClass.test_no_response Coverage Results" MODIFIED="1562324763383" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/lesson_5$client.coverage" NAME="client Coverage Results" MODIFIED="1562672355473" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/lesson_4$Unittests_for_test_functions_Tests_test_get_message.coverage" NAME="Unittests for test_functions.Tests.test_get_message Coverage Results" MODIFIED="1562326475349" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
-    <SUITE FILE_PATH="coverage/lesson_2$start.coverage" NAME="start Coverage Results" MODIFIED="1563883265040" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/lesson_2$start.coverage" NAME="start Coverage Results" MODIFIED="1570641644078" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/lesson_8$server.coverage" NAME="server Coverage Results" MODIFIED="1563207251696" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/lesson_5$server.coverage" NAME="server Coverage Results" MODIFIED="1562672353184" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/lesson_2$server.coverage" NAME="server Coverage Results" MODIFIED="1563883048664" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -350,6 +354,7 @@
     <SUITE FILE_PATH="coverage/lesson_4$Unittests_for_test_functions_Tests.coverage" NAME="Unittests for test_functions.Tests Coverage Results" MODIFIED="1562339186021" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/lesson_4$client.coverage" NAME="client Coverage Results" MODIFIED="1564733092691" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/lesson_4$Unittests_for_test_client_TestClass_test_presence.coverage" NAME="Unittests for test_client.TestClass.test_presence Coverage Results" MODIFIED="1562323300210" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/lesson_2$OpenFile.coverage" NAME="OpenFile Coverage Results" MODIFIED="1570563949507" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/lesson_4$start.coverage" NAME="start Coverage Results" MODIFIED="1564739936464" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/lesson_7$client_r.coverage" NAME="client_r Coverage Results" MODIFIED="1563087062807" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/lesson_4$Unittests_in_test_client_py.coverage" NAME="Unittests in test_client.py Coverage Results" MODIFIED="1562339180664" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
