@@ -21,7 +21,7 @@ class Example(QMainWindow):
         client_name = namespace.name
 
         self.lbl = QtWidgets.QLabel(self)
-        self.setGeometry(300, 400, 350, 300)
+        self.setGeometry(300, 300, 400, 300)
 
         openFile = QAction(QIcon('OpenFile\\open.png'), 'Open', self)
         openFile.triggered.connect(self.showDialog)
