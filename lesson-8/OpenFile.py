@@ -23,7 +23,7 @@ class Example(QMainWindow):
         self.lbl = QtWidgets.QLabel(self)
         self.setGeometry(300, 300, 400, 300)
 
-        openFile = QAction(QIcon('OpenFile\\open.png'), 'Open', self)
+        openFile = QAction(QIcon('Python_pro\\OpenFile\\open.png'), 'Open', self)
         openFile.triggered.connect(self.showDialog)
 
         menubar = self.menuBar()

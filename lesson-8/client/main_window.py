@@ -241,7 +241,7 @@ class ClientMainWindow(QMainWindow):
         message_text_encrypted = self.encryptor.encrypt(message_text.encode('utf8'))
         message_text_encrypted_base64 = base64.b64encode(message_text_encrypted)
         try:
-            self.transport.send_message(self.current_chat, message_text_encrypted_base64.decode('ascii'))
+            self.transport.send_message(self.current_chat, message_text_encrypted_base64.decode('utf8'))
             pass
         except ServerError as err:
             self.messages.critical(self, 'Ошибка', err.text)

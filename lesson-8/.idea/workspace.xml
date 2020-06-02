@@ -22,16 +22,16 @@
     <expand>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="server_database" type="feb32156:DbDataSourceImpl" />
+        <item name="client_test1" type="feb32156:DbDataSourceImpl" />
       </path>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="server_database" type="feb32156:DbDataSourceImpl" />
+        <item name="client_test1" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
       </path>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="server_database" type="feb32156:DbDataSourceImpl" />
+        <item name="client_test1" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="main: schema" type="981a47c2:SqliteImplModel$Schema" />
       </path>
@@ -64,11 +64,11 @@
       <recent name="C:\Users\IFHRJ\PycharmProjects\База даных и PyQt\lesson-4\lesson-4" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\IFHRJ\PycharmProjects\Python pro\Ниязов Илья lesson-7\lesson-7\Python_pro" />
       <recent name="C:\Users\IFHRJ\PycharmProjects\Python pro\Ниязов Илья lesson-6\lesson-6\kivy_test" />
       <recent name="C:\Users\IFHRJ\PycharmProjects\Python pro\Ниязов Илья lesson-2\lesson-2" />
       <recent name="C:\Users\IFHRJ\PycharmProjects\База даных и PyQt\lesson-6\lesson-6\common" />
       <recent name="C:\Users\IFHRJ\PycharmProjects\База даных и PyQt\lesson-5\lesson-5\common" />
-      <recent name="C:\Users\IFHRJ\PycharmProjects\Клиент-серверные python\Ниязов Илья\lesson-7\lesson-7" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -83,8 +83,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.kivi">
-    <configuration name="Math" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.mstlib">
+    <configuration name="client" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="lesson-3" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -97,7 +97,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Math.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/client.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -106,7 +106,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="kivi" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="main_window" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="lesson-3" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -114,12 +114,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/client" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="C:\Users\IFHRJ\PycharmProjects\Python pro\Ниязов Илья lesson-6\lesson-6\kivy_test\come_in.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/client/main_window.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -128,7 +128,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="kivy" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="mstlib" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="lesson-3" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -136,12 +136,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python_pro" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="C:\Users\IFHRJ\PycharmProjects\Python pro\Ниязов Илья lesson-6\lesson-6\kivy_test\come_in.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python_pro/mstlib.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -150,7 +150,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="mongodb" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="shifr" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="lesson-3" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -163,7 +163,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mongodb.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\IFHRJ\PycharmProjects\Python pro\Ниязов Илья lesson-7\lesson-7\Python_pro\shifr.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -196,11 +196,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.kivi" />
-        <item itemvalue="Python.kivy" />
+        <item itemvalue="Python.mstlib" />
+        <item itemvalue="Python.main_window" />
         <item itemvalue="Python.start" />
-        <item itemvalue="Python.mongodb" />
-        <item itemvalue="Python.Math" />
+        <item itemvalue="Python.shifr" />
+        <item itemvalue="Python.client" />
       </list>
     </recent_temporary>
   </component>
@@ -315,7 +315,18 @@
       <workItem from="1573195129693" duration="14000" />
       <workItem from="1573195173528" duration="528000" />
       <workItem from="1573195731449" duration="5126000" />
-      <workItem from="1573202002708" duration="405000" />
+      <workItem from="1573202002708" duration="1132000" />
+      <workItem from="1573228978620" duration="78000" />
+      <workItem from="1573229111562" duration="113000" />
+      <workItem from="1573386966393" duration="31000" />
+      <workItem from="1573387047636" duration="1590000" />
+      <workItem from="1573392201014" duration="1239000" />
+      <workItem from="1573396819448" duration="233000" />
+      <workItem from="1573397114328" duration="2485000" />
+      <workItem from="1573399764937" duration="213000" />
+      <workItem from="1573582738952" duration="365000" />
+      <workItem from="1573583393704" duration="733000" />
+      <workItem from="1573660685100" duration="721000" />
     </task>
     <servers />
   </component>
@@ -360,7 +371,8 @@
     <SUITE FILE_PATH="coverage/lesson_5$config_client_log.coverage" NAME="config_client_log Coverage Results" MODIFIED="1562671467790" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/log" />
     <SUITE FILE_PATH="coverage/lesson_3$server.coverage" NAME="server Coverage Results" MODIFIED="1571767241499" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/lesson_9$start.coverage" NAME="start Coverage Results" MODIFIED="1563874009253" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/lesson_7$start.coverage" NAME="start Coverage Results" MODIFIED="1563121566540" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/lesson_7$shifr.coverage" NAME="shifr Coverage Results" MODIFIED="1573396884678" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/lesson_7$start.coverage" NAME="start Coverage Results" MODIFIED="1573399417013" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/lesson_8$client.coverage" NAME="client Coverage Results" MODIFIED="1563257797093" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/lesson_5$client.coverage" NAME="client Coverage Results" MODIFIED="1562672355473" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/lesson_4$Unittests_for_test_functions_Tests_test_get_message.coverage" NAME="Unittests for test_functions.Tests.test_get_message Coverage Results" MODIFIED="1562326475349" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
@@ -372,11 +384,13 @@
     <SUITE FILE_PATH="coverage/lesson_3$client.coverage" NAME="client Coverage Results" MODIFIED="1571767365779" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/lesson_1$start.coverage" NAME="start Coverage Results" MODIFIED="1569566662302" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/lesson_5$mongodb.coverage" NAME="mongodb Coverage Results" MODIFIED="1572633777245" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/lesson_8$mstlib.coverage" NAME="mstlib Coverage Results" MODIFIED="1573661085081" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_pro" />
     <SUITE FILE_PATH="coverage/lesson_4$Unittests_for_test_server_TestServer.coverage" NAME="Unittests for test_server.TestServer Coverage Results" MODIFIED="1562339189540" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/lesson_4$Unittests_for_test_functions_Tests.coverage" NAME="Unittests for test_functions.Tests Coverage Results" MODIFIED="1562339186021" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/lesson_4$Unittests_for_test_client_TestClass_test_presence.coverage" NAME="Unittests for test_client.TestClass.test_presence Coverage Results" MODIFIED="1562323300210" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/lesson_4$Unittests_in_test_client_py.coverage" NAME="Unittests in test_client.py Coverage Results" MODIFIED="1562339180664" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
-    <SUITE FILE_PATH="coverage/lesson_7$client.coverage" NAME="client Coverage Results" MODIFIED="1563121233779" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/lesson_7$main_window.coverage" NAME="main_window Coverage Results" MODIFIED="1573399451231" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/client" />
+    <SUITE FILE_PATH="coverage/lesson_7$client.coverage" NAME="client Coverage Results" MODIFIED="1573388154170" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/lesson_8$start.coverage" NAME="start Coverage Results" MODIFIED="1563280544096" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/lesson_7$client_w.coverage" NAME="client_w Coverage Results" MODIFIED="1563087064460" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/lesson_3$start.coverage" NAME="start Coverage Results" MODIFIED="1571766919500" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -391,7 +405,7 @@
     <SUITE FILE_PATH="coverage/lesson_1$main_window_conv.coverage" NAME="main_window_conv Coverage Results" MODIFIED="1569519952013" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/client" />
     <SUITE FILE_PATH="coverage/lesson_4$mongodb.coverage" NAME="mongodb Coverage Results" MODIFIED="1572597058502" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/lesson_1$image.coverage" NAME="image Coverage Results" MODIFIED="1569567176785" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/OneDrive/Рабочий стол/gdgf/IMAGE" />
-    <SUITE FILE_PATH="coverage/lesson_7$server.coverage" NAME="server Coverage Results" MODIFIED="1563121231867" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/lesson_7$server.coverage" NAME="server Coverage Results" MODIFIED="1573388136928" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/lesson_5$config_cserver_log.coverage" NAME="config_cserver_log Coverage Results" MODIFIED="1562671465705" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/log" />
     <SUITE FILE_PATH="coverage/lesson_4$server.coverage" NAME="server Coverage Results" MODIFIED="1571940141450" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/lesson_5$start.coverage" NAME="start Coverage Results" MODIFIED="1572635910161" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />

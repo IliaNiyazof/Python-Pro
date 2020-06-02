@@ -1,5 +1,7 @@
 import subprocess
 import asyncio
+from subprocess import call
+from multiprocessing import Process
 
 process = []
 
@@ -25,9 +27,20 @@ async def function2():
             # Запускаем клиентов:
             for i in range(clients_count):
                 process.append(
-                    subprocess.call(f'python client.py -n test{i + 1}', shell=True))
+                    subprocess.Popen(f'python client.py -n test{i + 1}', creationflags=subprocess.CREATE_NEW_CONSOLE))
                 process.append(
                     subprocess.Popen(f'python OpenFile.py -n test{i + 1}', creationflags=subprocess.CREATE_NO_WINDOW))
+            # def func1():
+            #     call('python client.py -n test1', shell=True)
+            #
+            # def func2():
+            #     call('python client.py -n test2', shell=True)
+            #
+            # p1 = Process(target=func1)
+            # p1.start()
+            # p2 = Process(target=func2)
+            # p2.start()
+
 
 
 def mainLoop():
@@ -36,6 +49,5 @@ def mainLoop():
     wait_tasks = asyncio.wait(tasks)
     eloop.run_until_complete(wait_tasks)
     eloop.close()
-
 
 mainLoop()
